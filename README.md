@@ -1,1 +1,1 @@
-# matrixRotater
+# MatrixRotator application
