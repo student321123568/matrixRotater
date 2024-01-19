@@ -4,6 +4,7 @@ import { Header } from "./components/header/ui";
 import { SizeSelectors } from "./components/select/ui";
 import { MatrixInput } from "./components/matrixInput/ui";
 import { MatrixReverser } from "./components/matrixReverser/ui";
+import { MatrixView } from "./components/matrixView/ui";
 
 import styles from "./App.module.scss";
 import "./styles/App.scss";
@@ -45,6 +46,7 @@ function App() {
         <MatrixReverser className={styles.button} matrix={matrix} onChange={onMatrixReverse} />
       </div>
       <MatrixInput rows={size1} cols={size2} onChange={onMatrixChange} />
+      <MatrixView result={result} />
     </div>
   );
 }

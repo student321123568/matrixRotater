@@ -34,7 +34,6 @@ export const MatrixInput = ({ rows, cols, onChange }: IProps) => {
               <Input
                 placeholder="Введите число"
                 size="small"
-                maxLength={50}
                 key={colIndex}
                 type="number"
                 value={matrix[rowIndex][colIndex]}
