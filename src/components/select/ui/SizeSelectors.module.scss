@@ -1,0 +1,19 @@
+.sizeSelectors {
+  padding: 30px 0 10px 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  span {
+    font-size: 16px;
+    font-family: arial;
+  }
+}
