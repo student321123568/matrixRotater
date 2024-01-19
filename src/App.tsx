@@ -1,8 +1,10 @@
+import { useState } from "react";
+
 import { Header } from "./components/header/ui";
 import { SizeSelectors } from "./components/select/ui";
+import { MatrixInput } from "./components/matrixInput/ui";
 
 import "./App.scss";
-import { useState } from "react";
 
 function App() {
   const [size1, setSize1] = useState(3);
@@ -20,6 +22,7 @@ function App() {
     <div>
       <Header />
       <SizeSelectors onChange1={onSize1ChangeHandler} onChange2={onSize2ChangeHandler} value1={size1} value2={size2} />
+      <MatrixInput rows={size1} cols={size2} onChange={console.log} />
     </div>
   );
 }
