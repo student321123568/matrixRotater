@@ -2,10 +2,14 @@
 
 Команды для запуска в режиме разработки:
 
-npm i
-npm start
+<ol>
+  <li>npm install</li>
+  <li>npm start</li>
+</ol>
 
 Команды для сборки
 
-npm i
-npm run build
+<ol>
+  <li>npm install</li>
+  <li>npm run build</li>
+</ol>
